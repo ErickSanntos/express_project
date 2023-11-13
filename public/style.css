@@ -1,0 +1,60 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+/* styles.css */
+body {
+  font-family: 'Arial', sans-serif;
+ background-image: url('public/img/Todo-List-board.jpg');
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+ 
+  justify-content: center;
+  /* max-width: 600px;
+  margin: 50px auto; */
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  font-size: 1.5rem;
+  font-family: Handlee;
+  background: #bd7d7d;
+  margin-bottom: 5px;
+  line-height: 40px;
+  padding: 5px;
+}
+
+input[type="text"] {
+  width: 75%;
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+  width: 20%;
+  border: none;
+  background: #333;
+  color: white;
+}
