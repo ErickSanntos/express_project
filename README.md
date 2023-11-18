@@ -33,25 +33,18 @@ Give examples
     npm install express ejs body-parser
 
 
-Say what the step will be
-start a ejx file 
-```
-Give the example
-``` create our import file to get all the 
-    #express files
-    # bodyParser 
-    # path 
-        also create a variable to call the express module 
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo.
-
-## Usage <a name = "usage"></a>
-
-Add notes about how to use the system.
-# express_project
+### Usage
+Open the application in your web browser.
+Enter a task in the input field and click the "Add" button to add it to your to-do list.
+You can mark tasks as done by clicking the checkbox next to them.
+To delete a task, click the "Delete" button next to the task.
+### Features
+Add new tasks to your to-do list.
+Mark tasks as done.
+Delete tasks from your to-do list.
+Technologies Used
+HTML
+CSS
+JavaScript
+Credits
+This project was created by [Your Name] as a simple demonstration of a To-Do List web application.

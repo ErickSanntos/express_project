@@ -29,6 +29,24 @@
         </li>
       <% }); %>
     </ul>
+    <ul>
+      <% tasks.forEach((task, index) => { %>
+        <li>
+          <input
+            type="checkbox"
+            <%= task.completed ? 'checked' : '' %> 
+            id="task<%= index %>"
+            onchange="updateTaskStatus(<%= index %>)"
+          >
+          <label for="task<%= index %>"><%= task.text %></label>
+          <form action="/delete/<%= index %>" method="post">
+            <button type="submit">Delete</button>
+          </form>
+        </li>
+      <% }); %>
+    </ul>
+    
+    
     
     
   </div>

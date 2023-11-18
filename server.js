@@ -21,7 +21,12 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Server is running on port ${PORT}`));
 
 //////////// my route 
-// Temporary storage for tasks
+
+function updateTaskStatus(index) {
+  const checkbox = document.getElementById(`task${index}`);
+  tasks[index].completed = checkbox.checked;
+}
+
 // Temporary storage for tasks
 let tasks = [];
 
